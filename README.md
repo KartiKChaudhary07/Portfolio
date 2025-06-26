@@ -1,51 +1,69 @@
-# Getting Started with Create React App
+# Kartik Chaudhary - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! This is a modern, responsive portfolio built with React, Tailwind CSS, and Node.js.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Modern UI/UX** with smooth animations and transitions
+- **Responsive Design** that works on all devices
+- **Interactive Components** including a contact form with email functionality
+- **Project Showcase** with detailed descriptions and links
+- **Skills Section** with interactive skill cards
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React, Tailwind CSS, React Icons
+- **Backend**: Node.js, Express
+- **Email Service**: Nodemailer with Gmail
+- **Version Control**: Git & GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14 or later)
+- npm or yarn
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KartiKChaudhary07/Portfolio.git
+   cd Portfolio
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+   ```bash
+   # Install frontend dependencies
+   npm install
+   
+   # Install server dependencies
+   cd server
+   npm install
+   cd ..
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Set up environment variables:
+   - Create a `.env` file in the `server` directory
+   - Add your Gmail credentials (see `.env.example` for reference)
 
-### `npm run eject`
+4. Start the development server:
+   ```bash
+   # Start both frontend and backend
+   npm run start:fullstack
+   ```
+   - Frontend will be available at `http://localhost:3000`
+   - Backend API will be available at `http://localhost:5000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📝 License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
+- GitHub: [@KartiKChaudhary07](https://github.com/KartiKChaudhary07)
+- LinkedIn: [Kartik Chaudhary](https://www.linkedin.com/in/kartik-chaudhary07/)
+- Email: kartik9983chaudhary@gmail.com
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
@@ -68,3 +86,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Portfolio
+>>>>>>> 7952b27d7054bb4fa623c20c123dab2c9af9bbef
